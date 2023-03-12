@@ -3,10 +3,11 @@
     margin: .2rem;
     padding: 0rem;
 }
-html,body {
+html{
     font-size: 62.5%;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
+    overflow-wrap: auto;
 }
 .navbar img{
     height: 10.0rem;
@@ -30,7 +31,7 @@ html,body {
 .navbar ul li{
     text-align: center;
     font-size: 2.0rem;
-    padding: 3.1rem 6.6rem;
+    padding: 3.1rem 5.6rem;
     margin: .1rem;
 }
 .navbar ul li a{
@@ -46,7 +47,7 @@ html,body {
     width:20.0rem;
     border: .2rem solid white; 
     padding:.3rem;
-    margin-left: 4.7rem;
+    margin-left: 8.7rem;
     margin-top: 2.3rem;
 }
 .navbar ul li a:hover{
@@ -54,16 +55,21 @@ html,body {
     color: black;    
 }
 .container{
-    display: block;
-    margin: 1.0rem;
-    height: 50.0rem;
-    width:98%;
+    display:flex;
+    margin: 3rem auto;
+    /* width:160rem; */
+    height: 50rem;
     padding:.5rem;
     box-shadow: 0rem 0rem 1.2rem .6rem grey;
-    background-image:url(image/run.jpg);
+    /* background-image:url(image/run.jpg); */
     background-repeat:no-repeat;
     background-size: contain;
     background-position: 76.0rem center;
+}
+.container img{
+    height: 47rem;
+    width: 47rem;
+    margin: auto;
 }
 .club{
     display: inline-block;
@@ -90,51 +96,42 @@ html,body {
 .features li{
     padding: 1.3rem;
 }
-.imagessec{
+.imagesec{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:10.0rem 1.0rem;
-    padding:.4rem;
+    margin: 10rem auto;
+    width: 117rem;
+    padding: 0.4rem;
 }
-.imagessec p{
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 24.8rem;
-}
-.firstsec,.secondsec,.thirdsec{
+.imgsec{
+    display: flex;
+    flex-direction: column;
     border: .2rem solid white;
-    height: 30.0rem;
-    width: 30%;
-    padding: 1.3rem;
+    /* padding: 1.3rem; */
     margin: 10.0rem 2.0rem;
     border-radius: 1.0rem;
     box-shadow: 0rem 0rem 1.2rem .6rem grey;
 }
-.firstsec{
-    background-image: url(image/train.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.imgsec img{
+    height:30rem;
+    width:30rem;
 }
-.secondsec{
-    background-image: url(image/eqpment.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.img2{
+    height:30rem;
+    width:30rem;
 }
-.thirdsec{
-    background-image: url(image/open.jpg);
-    background-repeat: no-repeat;
-    background-size: 36.4rem;
-    background-position: center;
+.imagesec p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .secjp{
-    margin-top: 3.0rem;
-    margin-bottom: 7.6rem;
+    margin: 3rem auto;
+    margin-bottom: 20.6rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 .join{
@@ -143,7 +140,7 @@ html,body {
     font-size: 5.0rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*border: 2rem solid white;*/
-    width:40%;
+    /* width:40%; */
     height: 40.0rem;
     margin: 1.0rem;
 }
@@ -153,14 +150,18 @@ html,body {
     text-align: center;
 }
 .pic{
-    width:40%;
+    /* width:40rem; */
     margin: 1.0rem;
     height: 40.0rem;
     /*border: 2rem solid white;*/
-    background-image: url(image/muscles.jpg);
+    /* background-image: url(image/muscles.jpg); */
     background-repeat: no-repeat;
     background-size:contain;
 
+}
+.pic img{
+    height: 40rem;
+    width: 40rem;
 }
 .formbtn{
     text-decoration: none;
@@ -186,6 +187,7 @@ html,body {
 }
 footer{
     text-align: center;
+    font-size: 2rem;
     border:.2rem solid aliceblue ;
 }
 @media (max-width:980px) {
