@@ -1,0 +1,7 @@
+var mydata=new gym(req.body)
+    mydata.save().then(()=>{
+        res.send("form accepted!!");
+    }).catch(()=>{
+        res.status(404).send('form not filled. try again');
+    }
+    )
