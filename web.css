@@ -1,24 +1,25 @@
 *{
     box-sizing: border-box;
-    margin: 2px;
-    padding: 0px;
+    margin: .2rem;
+    padding: 0rem;
 }
 html,body {
+    font-size: 62.5%;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 .navbar img{
-    height: 100px;
-    width: 100px;
+    height: 10.0rem;
+    width: 10.0rem;
     cursor: pointer;
     rotate: 45deg;
-    padding: 9px;
-    margin: 3px;
+    padding: .9rem;
+    margin: .3rem;
     filter: invert(100%);
 }
 .navbar{
     background-color: rgb(0, 0, 0);
-    border: 2px solid black;
+    border: .2rem solid black;
     /*position:sticky*/
 }
 .navbar ul{
@@ -28,25 +29,25 @@ html,body {
 }
 .navbar ul li{
     text-align: center;
-    font-size: 20px;
-    padding: 31px 66px;
-    margin: 1px;
+    font-size: 2.0rem;
+    padding: 3.1rem 6.6rem;
+    margin: .1rem;
 }
 .navbar ul li a{
     color: aliceblue;
     text-decoration: none;
-    height: 10px;
-    width: 20px;
+    height: 1.0rem;
+    width: 2.0rem;
 }
 .navbar input{
-    height: 46px;
+    height: 4.6rem;
     background-color: black;
     color: aliceblue;
-    width:200px;
-    border: 2px solid white; 
-    padding:3px;
-    margin-left: 47px;
-    margin-top: 23px;
+    width:20.0rem;
+    border: .2rem solid white; 
+    padding:.3rem;
+    margin-left: 4.7rem;
+    margin-top: 2.3rem;
 }
 .navbar ul li a:hover{
     background-color: rgb(183, 197, 197);
@@ -54,62 +55,62 @@ html,body {
 }
 .container{
     display: block;
-    margin: 10px;
-    height: 500px;
+    margin: 1.0rem;
+    height: 50.0rem;
     width:98%;
-    padding:5px;
-    box-shadow: 0px 0px 12px 6px grey;
+    padding:.5rem;
+    box-shadow: 0rem 0rem 1.2rem .6rem grey;
     background-image:url(image/run.jpg);
     background-repeat:no-repeat;
     background-size: contain;
-    background-position: 760px center;
+    background-position: 76.0rem center;
 }
 .club{
     display: inline-block;
-    margin:50px;
-    margin-left: 100px;
+    margin:5.0rem;
+    margin-left: 10.0rem;
     font-family: 'Paytone One', sans-serif;
-    font-size: 100px;
+    font-size: 10.0rem;
 }
 .club:hover{
     transform: scale(1.2);
 }
 .container p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 400px;
+    margin-left: 40.0rem;
 }
 .features{
     float:left;
     display: block;
-    padding: 17px;
-    font-size: 30px;
-    width:400px;
+    padding: 1.7rem;
+    font-size: 3.0rem;
+    width:40.0rem;
 }
 .features li{
-    padding: 13px;
+    padding: 1.3rem;
 }
 .imagessec{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:100px 10px;
-    padding:4px;
+    margin:10.0rem 1.0rem;
+    padding:.4rem;
 }
 .imagessec p{
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 248px;
+    margin-top: 24.8rem;
 }
 .firstsec,.secondsec,.thirdsec{
-    border: 2px solid white;
-    height: 300px;
+    border: .2rem solid white;
+    height: 30.0rem;
     width: 30%;
-    padding: 13px;
-    margin: 100px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 12px 6px grey;
+    padding: 1.3rem;
+    margin: 10.0rem 2.0rem;
+    border-radius: 1.0rem;
+    box-shadow: 0rem 0rem 1.2rem .6rem grey;
 }
 .firstsec{
     background-image: url(image/train.jpg);
@@ -124,13 +125,13 @@ html,body {
 .thirdsec{
     background-image: url(image/open.jpg);
     background-repeat: no-repeat;
-    background-size: 364px;
+    background-size: 36.4rem;
     background-position: center;
 }
 
 .secjp{
-    margin-top: 30px;
-    margin-bottom: 76px;
+    margin-top: 3.0rem;
+    margin-bottom: 7.6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -138,23 +139,23 @@ html,body {
 .join{
     display: flex;
     flex-direction: column;
-    font-size: 50px;
+    font-size: 5.0rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*border: 2px solid white;*/
+    /*border: 2rem solid white;*/
     width:40%;
-    height: 400px;
-    margin: 10px;
+    height: 40.0rem;
+    margin: 1.0rem;
 }
 .para{
-    margin-top: 70px;
-    padding: 5px;
+    margin-top: 7.0rem;
+    padding: .5rem;
     text-align: center;
 }
 .pic{
     width:40%;
-    margin: 10px;
-    height: 400px;
-    /*border: 2px solid white;*/
+    margin: 1.0rem;
+    height: 40.0rem;
+    /*border: 2rem solid white;*/
     background-image: url(image/muscles.jpg);
     background-repeat: no-repeat;
     background-size:contain;
@@ -163,26 +164,26 @@ html,body {
 .formbtn{
     text-decoration: none;
     display: block;
-    margin-top:33px;
-    margin-left:170px ;
-    padding: 5px;
+    margin-top:3.3rem;
+    margin-left:17.0rem ;
+    padding: .5rem;
     background-color: aliceblue;
     color: black;
-    border: 2px solid black;
-    border-radius: 4px;
-    width:140px;
-    height: 40px;
-    font-size: 23px;
+    border: .2rem solid black;
+    border-radius: .4rem;
+    width:14.0rem;
+    height: 4.0rem;
+    font-size: 2.3rem;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .formbtn:hover{
     background-color:black;
     color:aliceblue;
-    border: 2px solid aliceblue;
-    border-radius: 4px;
+    border: .2rem solid aliceblue;
+    border-radius: .4rem;
 }
 footer{
     text-align: center;
-    border:2px solid aliceblue ;
+    border:.2rem solid aliceblue ;
 }
