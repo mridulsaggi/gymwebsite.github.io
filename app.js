@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname,'static')));//used to serve the CSS f
 app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,'static/web.html'));
 });
-app.get("/about",(req,res)=>{
+app.get("mridulsaggi.github.io/about",(req,res)=>{
     res.sendFile(path.join(__dirname,'static/about.html'));
 });
 app.get("/contact",(req,res)=>{
